@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.main{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainImage {
+  position: relative; 
+  width: 100%;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d6b8518fcce5c67106f36/1623102336073-E8SJJE8ZVGVCC3J27040/_MG_4934.jpg?format=1500w');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 65px;
+}
+
+.mainImage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 20, 20, 0.5); 
+}
+.mainImage h1{
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  text-align: center;
+  z-index: 1;
+  margin: 0;
+}
+.mainImage p{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  z-index: 1;
+   font-size: 1.3rem;
+   margin: 3px;
+
+}
+.recipes{
+font-size: 2.8rem;
+text-align: center;
+}
+.card-group{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  margin: 15px;
+}
+.loadBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.load{
+  padding: 10px 20px;
+  background-color: rgba(234, 0, 0, 0.913);
   color: white;
-}
+  font-size: 19px;
 
-.App-link {
-  color: #61dafb;
 }
+ h2{
+  font-size: 3.2rem;
+  text-align: center;
+}
+.trending,.more-categ,.partners{
+  margin: 2px 80px;
+}
+ b{
+  color: rgb(248, 0, 0);
+}
+.trending h4{
+  margin: 4px 2px;
+}
+.trending-card-group{
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 1px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.trending .category-card-group{
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 1px;
+}
+.more-categ .category-card-group{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0px;
+
+}
+.partners .trending-card-group{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+footer{
+  background-color: rgb(52, 50, 50);
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
