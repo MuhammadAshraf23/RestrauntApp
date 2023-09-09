@@ -70,7 +70,7 @@ function App() {
       <div className='trending'>
         <h2>Trending on <b>Foody</b></h2>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -83,7 +83,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -96,7 +96,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345, marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -109,7 +109,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -124,7 +124,7 @@ function App() {
           </Card>
         </div>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -137,7 +137,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -150,7 +150,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -163,7 +163,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -181,7 +181,7 @@ function App() {
       <div className="more-categ">
         <h2>More <b>Category</b></h2>
         <div className='category-card-group'>
-          <Card sx={{ maxWidth: 350 }}>
+          <Card sx={{ maxWidth: 350 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -199,7 +199,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 350 }}>
+          <Card sx={{ maxWidth: 350  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -217,7 +217,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 350 }}>
+          <Card sx={{ maxWidth: 350  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -235,7 +235,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 350 }}>
+          <Card sx={{ maxWidth: 350 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -253,7 +253,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 350 }}>
+          <Card sx={{ maxWidth: 350  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -276,7 +276,7 @@ function App() {
       <div className='trending'>
         <h2>You May <b>Also Like</b></h2>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -289,7 +289,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -302,7 +302,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -315,7 +315,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -330,7 +330,7 @@ function App() {
           </Card>
         </div>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -343,7 +343,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -356,7 +356,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -369,7 +369,7 @@ function App() {
               </Typography>
             </CardContent>
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -387,7 +387,7 @@ function App() {
       <div className='partners'>
         <h2>Our Happy <b>Cooking Patners</b></h2>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -395,7 +395,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -403,7 +403,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -411,7 +411,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -421,7 +421,7 @@ function App() {
           </Card>
         </div>
         <div className='trending-card-group'>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -429,7 +429,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"
@@ -437,7 +437,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345  ,marginBottom: '10px'}}>
             <CardMedia
               component="img"
               height="194"
@@ -445,7 +445,7 @@ function App() {
               alt="Paella dish"
             />
           </Card>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 ,marginBottom: '10px' }}>
             <CardMedia
               component="img"
               height="194"

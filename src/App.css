@@ -46,6 +46,7 @@ text-align: center;
 }
 .card-group{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .card{
@@ -79,17 +80,23 @@ text-align: center;
 }
 .trending-card-group{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 18px 1px;
 
 }
+.trending-card-group Card{
+  margin: 40px;
+}
 .trending .category-card-group{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 18px 1px;
 }
 .more-categ .category-card-group{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 15px 0px;
 
