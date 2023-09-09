@@ -46,11 +46,8 @@ text-align: center;
 }
 .card-group{
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
-=======
   flex-wrap:wrap;
->>>>>>> 40d5a0c1a42ce1d513815a2f10a96894dddb3fb2
   justify-content: center;
 }
 .card{
@@ -84,11 +81,8 @@ text-align: center;
 }
 .trending-card-group{
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
-=======
   flex-wrap:wrap;
->>>>>>> 40d5a0c1a42ce1d513815a2f10a96894dddb3fb2
   justify-content: space-between;
   margin: 18px 1px;
 
@@ -98,21 +92,15 @@ text-align: center;
 }
 .trending .category-card-group{
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
-=======
   flex-wrap:wrap;
->>>>>>> 40d5a0c1a42ce1d513815a2f10a96894dddb3fb2
   justify-content: space-between;
   margin: 18px 1px;
 }
 .more-categ .category-card-group{
   display: flex;
-<<<<<<< HEAD
   flex-wrap: wrap;
-=======
   flex-wrap:wrap;
->>>>>>> 40d5a0c1a42ce1d513815a2f10a96894dddb3fb2
   justify-content: space-evenly;
   margin: 15px 0px;
 
