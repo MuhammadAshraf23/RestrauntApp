@@ -1,11 +1,34 @@
-.main{
+/* Header Styles */
+
+
+nav{
+  background-color:rgb(248, 0, 0);
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color:white;
+  padding:2px 10px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+ul li{
+  padding: 10px;
+  font-weight: bold;
+}
+.main {
   width: 100%;
 }
 
 .mainImage {
-  position: relative; 
+  position: relative;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +36,6 @@
   background-image: url('https://images.squarespace-cdn.com/content/v1/5d8d6b8518fcce5c67106f36/1623102336073-E8SJJE8ZVGVCC3J27040/_MG_4934.jpg?format=1500w');
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 65px;
 }
 
 .mainImage::before {
@@ -23,22 +45,23 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(22, 20, 20, 0.5); 
+  background-color: rgba(22, 20, 20, 0.5);
 }
-.mainImage h1{
-  color: rgb(255, 255, 255);
+
+.mainImage h1 {
+  color: #fff;
   font-size: 3.5rem;
   text-align: center;
   z-index: 1;
   margin: 0;
 }
-.mainImage p{
-  color: rgb(255, 255, 255);
+
+.mainImage p {
+  color: #fff;
   text-align: center;
   z-index: 1;
-   font-size: 1.3rem;
-   margin: 3px;
-
+  font-size: 1.3rem;
+  margin: 3px;
 }
 .recipes{
 font-size: 2.8rem;
@@ -46,12 +69,14 @@ text-align: center;
 }
 .card-group{
   display: flex;
-  flex-wrap: wrap;
-  flex-wrap:wrap;
   justify-content: center;
 }
 .card{
   margin: 15px;
+}
+.all-card{
+  max-width: 100%;
+  margin: 10px;
 }
 .loadBtn{
   display: flex;
@@ -71,7 +96,7 @@ text-align: center;
   text-align: center;
 }
 .trending,.more-categ,.partners{
-  margin: 2px 80px;
+  margin: 2px 81px;
 }
  b{
   color: rgb(248, 0, 0);
@@ -82,7 +107,6 @@ text-align: center;
 .trending-card-group{
   display: flex;
   flex-wrap: wrap;
-  flex-wrap:wrap;
   justify-content: space-between;
   margin: 18px 1px;
 
@@ -93,14 +117,12 @@ text-align: center;
 .trending .category-card-group{
   display: flex;
   flex-wrap: wrap;
-  flex-wrap:wrap;
   justify-content: space-between;
   margin: 18px 1px;
 }
 .more-categ .category-card-group{
   display: flex;
   flex-wrap: wrap;
-  flex-wrap:wrap;
   justify-content: space-evenly;
   margin: 15px 0px;
 
@@ -115,4 +137,48 @@ footer{
   color: white;
   padding: 15px;
   text-align: center;
+}
+/* Responsive Styles */
+@media (min-width: 426px) and (max-width: 768px){
+  .card-group {
+    flex-wrap: wrap;
+  }
+  .all-card{
+    width: 45%;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  nav{
+    justify-content: center;
+  }
+  nav ul{
+    display:none;
+  }
+  .mainImage h1 {
+    font-size: 2.5rem;
+  }
+  .mainImage p{
+    font-size: 1.2rem;
+  }
+  .card-group {
+    flex-wrap: wrap;
+  }
+  .trending h4{
+    margin: 1px;
+  }
+  h2{
+    margin:1px ;
+    font-size: 2.8rem;
+
+  }
+  .trending-card-group{
+    justify-content: center;  
+  }
+  .trending, .more-categ, .partners {
+    margin: 2px 3px;
+  }
+  .all-card{
+width:100%;
+  }
 }
