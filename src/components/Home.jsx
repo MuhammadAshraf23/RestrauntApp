@@ -9,7 +9,6 @@ import CookingPatners from './CookingPatners';
 const Home = () => {
   return (
     <>
-      
       <Recipes />
       <Trending />
       <MoreCategory />

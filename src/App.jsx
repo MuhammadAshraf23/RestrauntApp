@@ -6,8 +6,7 @@ import Trending from './components/Trending';
 import { Recipes } from './components/Recipes';
 import { MoreCategory } from './components/MoreCategory';
 import MayLike from './components/MayLike';
-import { Home } from '@mui/icons-material';
-import CookingPatners from './components/CookingPatners';
+import  Home  from './components/Home';
 function App() {
   return (
      <Router>
@@ -20,7 +19,7 @@ function App() {
         <p>Welcome to <b>Foody</b> <br /> Where Great Food Unites People. Join us in bringing hearts together through the joy of delightful cuisine</p>
       </div>
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/trending" element={<Trending />} />
           <Route path="/more-category" element={<MoreCategory />} />
